@@ -82,7 +82,7 @@ body {
 }
 
 /* 🔹 Responsiveness */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .container {
         padding: 1.5rem;
     }
@@ -97,6 +97,7 @@ body {
 @media (max-width: 480px) {
     .container {
         padding: 1rem;
+        height: 50%;
         gap: 1.5rem;
     }
     .heading {
@@ -110,4 +111,4 @@ body {
         width: 100%;
         padding: 0.7rem;
     }
-} */
+}
