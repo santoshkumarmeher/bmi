@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.full-screen {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 0.3rem solid black;
+    padding: 2rem;
+    width: 100%;
+    max-width: 30rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.col label {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.col input {
+    border: 0.2rem solid black;
+    height: 3rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.col input:focus {
+    border-color: rgb(43, 167, 43);
+    outline: none;
+}
+
+#calculate {
+    padding: 0.8rem 2rem;
+    border: 0.rem solid black;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+#calculate:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* 🔹 Responsiveness */
+/* @media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+    }
+    .heading {
+        font-size: 1.6rem;
+    }
+    .col label {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+    .heading {
+        font-size: 1.4rem;
+    }
+    .col input {
+        height: 2.5rem;
+        font-size: 0.9rem;
+    }
+    #calculate {
+        width: 100%;
+        padding: 0.7rem;
+    }
+} */
